@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	net/mcreator/warmareborn/mixins/EntityMixin	()V	discard	method_31472
+METHOD	net/mcreator/warmareborn/mixins/EntityMixin	(Lnet/minecraft/world/entity/Entity;)D	distanceToSqr	method_5858

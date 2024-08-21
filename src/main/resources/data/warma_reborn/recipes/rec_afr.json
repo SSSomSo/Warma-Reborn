@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:fishing_rod"
+    },
+    {
+      "item": "warma_reborn:spider_zhi_zhu"
+    },
+    {
+      "item": "warma_reborn:warma_core"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "warma_reborn:another_fishing_rod",
+    "count": 1
+  }
+}

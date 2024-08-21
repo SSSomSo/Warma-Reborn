@@ -1,0 +1,396 @@
+{
+  "mod_elements": [
+    {
+      "name": "WarmaCantEat",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warma_cant_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/procedures/WarmaCantEatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warma",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/warma.json",
+          "src/main/java/net/mcreator/warmareborn/item/WarmaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WarmaReborn",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warma_reborn",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mantou",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mantou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/item/MantouItem.java",
+          "src/main/resources/assets/warma_reborn/models/item/mantou.json"
+        ]
+      }
+    },
+    {
+      "name": "WarmaCore",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warma_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/warma_core.json",
+          "src/main/java/net/mcreator/warmareborn/item/WarmaCoreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecWarma",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_warma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_warma.json"
+        ]
+      }
+    },
+    {
+      "name": "RecWarmaCore",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_warma_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_warma_core.json"
+        ]
+      }
+    },
+    {
+      "name": "RecMantou",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_mantou",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_mantou.json"
+        ]
+      }
+    },
+    {
+      "name": "WomaArmor",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woma_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/woma_armor_helmet.json",
+          "src/main/resources/assets/warma_reborn/models/item/woma_armor_boots.json",
+          "src/main/java/net/mcreator/warmareborn/item/WomaArmorItem.java",
+          "src/main/resources/assets/warma_reborn/models/item/woma_armor_chestplate.json",
+          "src/main/resources/assets/warma_reborn/models/item/woma_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "WomaArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woma_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/woma_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WomaArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woma_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/woma_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WomaArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woma_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/woma_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WomaArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woma_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/woma_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EatWarma",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_warma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/damage_type/eat_warma.json"
+        ]
+      }
+    },
+    {
+      "name": "Dianyuan",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dianyuan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/dianyuan.json",
+          "src/main/java/net/mcreator/warmareborn/item/DianyuanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecDianyuan",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_dianyuan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_dianyuan.json"
+        ]
+      }
+    },
+    {
+      "name": "SpiderZhiZhu",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_zhi_zhu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/spider_zhi_zhu.json",
+          "src/main/java/net/mcreator/warmareborn/item/SpiderZhiZhuItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecZhizhu",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_zhizhu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_zhizhu.json"
+        ]
+      }
+    },
+    {
+      "name": "Wuya",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wuya",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/item/WuyaItem.java",
+          "src/main/resources/assets/warma_reborn/models/item/wuya.json"
+        ]
+      }
+    },
+    {
+      "name": "RecWuya",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_wuya",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_wuya.json"
+        ]
+      }
+    },
+    {
+      "name": "CakeIsALie",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_is_a_lie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/cake_is_a_lie.json",
+          "src/main/java/net/mcreator/warmareborn/item/CakeIsALieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecCIAL",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_cial",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_cial.json"
+        ]
+      }
+    },
+    {
+      "name": "AnotherFishingRod",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "another_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warma_reborn/models/item/another_fishing_rod.json",
+          "src/main/java/net/mcreator/warmareborn/item/AnotherFishingRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecAFR",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_afr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_afr.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.warma_reborn.another_fishing_rod": "Another Fishing Rod",
+      "item.warma_reborn.woma_armor_boots": "Warma Boots",
+      "item.warma_reborn.woma_armor_helmet": "Warma Helmet",
+      "item.warma_reborn.spider_zhi_zhu": "Spider",
+      "item_group.warma_reborn.warma_reborn": "Warma Reborn",
+      "item.warma_reborn.mantou": "Mantou",
+      "death.attack.eat_warma.item": "_",
+      "item.warma_reborn.wuya": "Wuya",
+      "item.warma_reborn.cake_is_a_lie": "Cake Is A Lie",
+      "item.warma_reborn.woma_armor_leggings": "Warma Leggings",
+      "item.warma_reborn.dianyuan": "Dianyuan",
+      "item.warma_reborn.warma_core": "Warma Core",
+      "death.attack.eat_warma.player": "_",
+      "item.warma_reborn.warma": "Warma",
+      "death.attack.eat_warma": "%1$s Ate Warma, but she can\u0027t eat.",
+      "item.warma_reborn.woma_armor_chestplate": "Warma Chestplate"
+    },
+    "zh_cn": {
+      "item.warma_reborn.another_fishing_rod": "沃玛的鱼竿",
+      "item.warma_reborn.woma_armor_boots": "沃玛鞋",
+      "item.warma_reborn.woma_armor_helmet": "沃玛帽子",
+      "item.warma_reborn.spider_zhi_zhu": "蜘蛛",
+      "item_group.warma_reborn.warma_reborn": "沃玛：重生",
+      "item.warma_reborn.mantou": "沃沃头/馒头",
+      "death.attack.eat_warma.item": "_",
+      "item.warma_reborn.wuya": "乌鸦",
+      "item.warma_reborn.cake_is_a_lie": "蛋糕（不能吃）",
+      "item.warma_reborn.woma_armor_leggings": "沃玛护腿",
+      "item.warma_reborn.dianyuan": "店员",
+      "item.warma_reborn.warma_core": "沃玛核心",
+      "death.attack.eat_warma.player": "_",
+      "item.warma_reborn.warma": "沃玛",
+      "death.attack.eat_warma": "%1$s 把沃玛吃了，但是吃了谁来更新呢？",
+      "item.warma_reborn.woma_armor_chestplate": "沃玛盔甲"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "warma_reborn",
+    "modName": "Warma Reborn",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.warmareborn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

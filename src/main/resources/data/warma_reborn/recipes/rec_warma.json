@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "warma_reborn:mantou"
+    },
+    {
+      "item": "warma_reborn:warma_core"
+    }
+  ],
+  "result": {
+    "item": "warma_reborn:warma",
+    "count": 1
+  }
+}
