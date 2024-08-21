@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "minecraft:light_blue_concrete"
+    },
+    {
+      "item": "warma_reborn:warma_core"
+    },
+    {
+      "item": "minecraft:white_concrete"
+    },
+    {
+      "item": "minecraft:brown_concrete"
+    }
+  ],
+  "result": {
+    "item": "warma_reborn:cake_is_a_lie",
+    "count": 1
+  }
+}

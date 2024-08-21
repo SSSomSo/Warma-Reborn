@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 10.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s Ate Warma, but she can't eat.",
+    "itemDeathMessage": "_",
+    "playerDeathMessage": "_"
+  }
+}
