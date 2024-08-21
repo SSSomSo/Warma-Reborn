@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "net/mcreator/warmareborn/mixins/WarmaRebornModFishingHookMixin": {
+      "shouldStopFishing": "Lnet/minecraft/class_1536;method_6959(Lnet/minecraft/class_1657;)Z"
+    },
+    "net/mcreator/warmareborn/mixins/WarmaRebornModFishingHookRendererMixin": {
+      "render": "Lnet/minecraft/class_906;method_3974(Lnet/minecraft/class_1536;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "net/mcreator/warmareborn/mixins/WarmaRebornModRepairItemRecipeMixin": {
+      "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_8566;Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/mcreator/warmareborn/mixins/WarmaRebornModFishingHookMixin": {
+        "shouldStopFishing": "Lnet/minecraft/class_1536;method_6959(Lnet/minecraft/class_1657;)Z"
+      },
+      "net/mcreator/warmareborn/mixins/WarmaRebornModFishingHookRendererMixin": {
+        "render": "Lnet/minecraft/class_906;method_3974(Lnet/minecraft/class_1536;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "net/mcreator/warmareborn/mixins/WarmaRebornModRepairItemRecipeMixin": {
+        "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_8566;Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+      }
+    }
+  }
+}
