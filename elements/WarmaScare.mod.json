@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spider",
+    "texture": "zhengjing_warma",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Spider",
+    "name": "Warma Scare",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WarmaReborn"
@@ -35,22 +35,19 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "ScareWarma"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }

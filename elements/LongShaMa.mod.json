@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spider",
+    "texture": "hunaneatshapeople",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Spider",
+    "name": "Eat Shark Warma",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WarmaReborn"
@@ -35,22 +35,22 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "ScareWarma"
+    "onFinishUsingItem": {
+      "name": "WarmaCantEat"
     },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.FISH#0"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }

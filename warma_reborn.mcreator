@@ -40,6 +40,7 @@
     {
       "name": "WarmaReborn",
       "type": "tab",
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "warma_reborn",
@@ -186,6 +187,7 @@
     {
       "name": "EatWarma",
       "type": "damagetype",
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eat_warma",
@@ -329,6 +331,132 @@
           "src/main/resources/data/warma_reborn/recipes/rec_afr.json"
         ]
       }
+    },
+    {
+      "name": "WP1",
+      "type": "painting",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WP2",
+      "type": "painting",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WP3",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WP4",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_4",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WP5",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_5",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WP6",
+      "type": "painting",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp_6",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LongShaMa",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_sha_ma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/item/LongShaMaItem.java",
+          "src/main/resources/assets/warma_reborn/models/item/long_sha_ma.json"
+        ]
+      }
+    },
+    {
+      "name": "RecLongShaMa",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_long_sha_ma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warma_reborn/recipes/rec_long_sha_ma.json"
+        ]
+      }
+    },
+    {
+      "name": "WarmaScare",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warma_scare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/item/WarmaScareItem.java",
+          "src/main/resources/assets/warma_reborn/models/item/warma_scare.json"
+        ]
+      }
+    },
+    {
+      "name": "ScareWarma",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scare_warma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warmareborn/procedures/ScareWarmaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -336,39 +464,67 @@
   "language_map": {
     "en_us": {
       "item.warma_reborn.another_fishing_rod": "Another Fishing Rod",
-      "item.warma_reborn.woma_armor_boots": "Warma Boots",
-      "item.warma_reborn.woma_armor_helmet": "Warma Helmet",
+      "item.warma_reborn.woma_armor_boots": "Woma Boots",
+      "item.warma_reborn.woma_armor_helmet": "Woma Helmet",
+      "painting.warma_reborn_wp_1.title": "Paint of Warma 1",
+      "painting.warma_reborn_wp_5.title": "Paint of Warma 5",
+      "item.warma_reborn.long_sha_ma": "Eat Shark Warma",
+      "item.warma_reborn.woma_armor_leggings": "Woma Leggings",
+      "painting.warma_reborn_wp_6.title": "Paint of Warma 5",
+      "painting.warma_reborn_wp_5.auhor": "Warma",
+      "death.attack.eat_warma": "%1$s Ate Warma, but she can\u0027t eat.",
+      "item.warma_reborn.warma_scare": "Warma Scare",
+      "painting.warma_reborn_wp_3.title": "Paint of Warma 3",
+      "painting.warma_reborn_wp_2.title": "Paint of Warma 2",
       "item.warma_reborn.spider_zhi_zhu": "Spider",
       "item_group.warma_reborn.warma_reborn": "Warma Reborn",
       "item.warma_reborn.mantou": "Mantou",
       "death.attack.eat_warma.item": "_",
       "item.warma_reborn.wuya": "Wuya",
       "item.warma_reborn.cake_is_a_lie": "Cake Is A Lie",
-      "item.warma_reborn.woma_armor_leggings": "Warma Leggings",
+      "painting.warma_reborn_wp_2.author": "Warma",
+      "painting.warma_reborn_wp_3.author": "Warma",
       "item.warma_reborn.dianyuan": "Dianyuan",
+      "painting.warma_reborn_wp_4.title": "Paint of Warma 4",
       "item.warma_reborn.warma_core": "Warma Core",
       "death.attack.eat_warma.player": "_",
+      "painting.warma_reborn_wp_6.author": "Warma",
       "item.warma_reborn.warma": "Warma",
-      "death.attack.eat_warma": "%1$s Ate Warma, but she can\u0027t eat.",
-      "item.warma_reborn.woma_armor_chestplate": "Warma Chestplate"
+      "item.warma_reborn.woma_armor_chestplate": "Woma Chestplate",
+      "painting.warma_reborn_wp_1.author": "Warma",
+      "painting.warma_reborn_wp_4.author": "Warma"
     },
     "zh_cn": {
       "item.warma_reborn.another_fishing_rod": "沃玛的鱼竿",
       "item.warma_reborn.woma_armor_boots": "沃玛鞋",
       "item.warma_reborn.woma_armor_helmet": "沃玛帽子",
+      "painting.warma_reborn_wp_1.title": "Paint of Warma 1",
+      "painting.warma_reborn_wp_5.title": "Paint of Warma 5",
+      "item.warma_reborn.long_sha_ma": "Eat Sha Warma",
+      "item.warma_reborn.woma_armor_leggings": "沃玛护腿",
+      "painting.warma_reborn_wp_6.title": "Paint of Warma 6",
+      "painting.warma_reborn_wp_5.auhor": "Warma",
+      "death.attack.eat_warma": "%1$s 把沃玛吃了，但是作者就没有素材了，所以我把 %1$s 吃了。",
+      "item.warma_reborn.warma_scare": "Warma Scare",
+      "painting.warma_reborn_wp_3.title": "Paint of Warma 3",
+      "painting.warma_reborn_wp_2.title": "Paint of Warma 2",
       "item.warma_reborn.spider_zhi_zhu": "蜘蛛",
       "item_group.warma_reborn.warma_reborn": "沃玛：重生",
       "item.warma_reborn.mantou": "沃沃头/馒头",
       "death.attack.eat_warma.item": "_",
       "item.warma_reborn.wuya": "乌鸦",
       "item.warma_reborn.cake_is_a_lie": "蛋糕（不能吃）",
-      "item.warma_reborn.woma_armor_leggings": "沃玛护腿",
+      "painting.warma_reborn_wp_2.author": "Warma",
+      "painting.warma_reborn_wp_3.author": "Warma",
       "item.warma_reborn.dianyuan": "店员",
+      "painting.warma_reborn_wp_4.title": "Paint of Warma 4",
       "item.warma_reborn.warma_core": "沃玛核心",
       "death.attack.eat_warma.player": "_",
+      "painting.warma_reborn_wp_6.author": "Warma",
       "item.warma_reborn.warma": "沃玛",
-      "death.attack.eat_warma": "%1$s 把沃玛吃了，但是吃了谁来更新呢？",
-      "item.warma_reborn.woma_armor_chestplate": "沃玛盔甲"
+      "item.warma_reborn.woma_armor_chestplate": "沃玛盔甲",
+      "painting.warma_reborn_wp_1.author": "Warma",
+      "painting.warma_reborn_wp_4.author": "Warma"
     }
   },
   "foldersRoot": {

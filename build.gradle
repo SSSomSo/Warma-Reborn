@@ -5,9 +5,9 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-archivesBaseName = 'warmareborn'
+archivesBaseName = 'modid'
 version = '1.0.0'
-group = 'net.mcreator.warmareborn'
+group = 'com.yourname.modid'
 actualmodid = 'warma_reborn'
 
 loom {
@@ -21,10 +21,10 @@ loom {
 dependencies {
     minecraft "com.mojang:minecraft:1.20.1"
     mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:0.15.10"
+    modImplementation "net.fabricmc:fabric-loader:0.14.21"
 
     //Fabric api
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.88.1+1.20.1"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.83.1+1.20.1"
 }
 
 processResources {
