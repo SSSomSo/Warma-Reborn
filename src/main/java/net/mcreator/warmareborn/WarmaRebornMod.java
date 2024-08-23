@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.warmareborn.init.WarmaRebornModTabs;
 import net.mcreator.warmareborn.init.WarmaRebornModProcedures;
+import net.mcreator.warmareborn.init.WarmaRebornModPaintings;
 import net.mcreator.warmareborn.init.WarmaRebornModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -33,6 +34,7 @@ public class WarmaRebornMod implements ModInitializer {
 
 		WarmaRebornModItems.load();
 
+		WarmaRebornModPaintings.load();
 		WarmaRebornModProcedures.load();
 
 	}

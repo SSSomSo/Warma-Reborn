@@ -6,12 +6,12 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.warmareborn.init.WarmaRebornModTabs;
 import net.mcreator.warmareborn.init.WarmaRebornModItems;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -71,7 +71,7 @@ public abstract class WomaArmorItem extends ArmorItem {
 	public static class Helmet extends WomaArmorItem {
 		public Helmet() {
 			super(Type.HELMET, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(WarmaRebornModTabs.TAB_WARMA_REBORN).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -84,7 +84,7 @@ public abstract class WomaArmorItem extends ArmorItem {
 
 		public Chestplate() {
 			super(Type.CHESTPLATE, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(WarmaRebornModTabs.TAB_WARMA_REBORN).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -97,7 +97,7 @@ public abstract class WomaArmorItem extends ArmorItem {
 
 		public Leggings() {
 			super(Type.LEGGINGS, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(WarmaRebornModTabs.TAB_WARMA_REBORN).register(content -> content.accept(this));
 		}
 
 		@Override
@@ -110,7 +110,7 @@ public abstract class WomaArmorItem extends ArmorItem {
 
 		public Boots() {
 			super(Type.BOOTS, new Item.Properties());
-			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+			ItemGroupEvents.modifyEntriesEvent(WarmaRebornModTabs.TAB_WARMA_REBORN).register(content -> content.accept(this));
 		}
 
 		@Override

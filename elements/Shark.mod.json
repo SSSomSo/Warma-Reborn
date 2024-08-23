@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spider",
+    "texture": "shayu",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Spider",
+    "name": "Shark",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WarmaReborn"
@@ -35,22 +35,19 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "ScareWarma"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 5,
+    "saturation": 0.5,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
-    "isAlwaysEdible": false,
+    "isMeat": true,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }

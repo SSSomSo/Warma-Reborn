@@ -471,19 +471,6 @@
           "src/main/resources/assets/warma_reborn/models/item/shark.json"
         ]
       }
-    },
-    {
-      "name": "RecShark",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rec_shark",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/warma_reborn/recipes/rec_shark.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],

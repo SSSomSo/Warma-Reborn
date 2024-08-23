@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "warma_reborn:warma"
+    },
+    {
+      "item": "warma_reborn:warma_core"
+    },
+    {
+      "item": "warma_reborn:shark"
+    }
+  ],
+  "result": {
+    "item": "warma_reborn:long_sha_ma",
+    "count": 1
+  }
+}

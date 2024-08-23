@@ -13,10 +13,13 @@ import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
 import net.mcreator.warmareborn.item.WuyaItem;
 import net.mcreator.warmareborn.item.WomaArmorItem;
+import net.mcreator.warmareborn.item.WarmaScareItem;
 import net.mcreator.warmareborn.item.WarmaItem;
 import net.mcreator.warmareborn.item.WarmaCoreItem;
 import net.mcreator.warmareborn.item.SpiderZhiZhuItem;
+import net.mcreator.warmareborn.item.SharkItem;
 import net.mcreator.warmareborn.item.MantouItem;
+import net.mcreator.warmareborn.item.LongShaMaItem;
 import net.mcreator.warmareborn.item.DianyuanItem;
 import net.mcreator.warmareborn.item.CakeIsALieItem;
 import net.mcreator.warmareborn.item.AnotherFishingRodItem;
@@ -35,6 +38,9 @@ public class WarmaRebornModItems {
 	public static Item WUYA;
 	public static Item CAKE_IS_A_LIE;
 	public static Item ANOTHER_FISHING_ROD;
+	public static Item LONG_SHA_MA;
+	public static Item WARMA_SCARE;
+	public static Item SHARK;
 
 	public static void load() {
 		MANTOU = register("mantou", new MantouItem());
@@ -49,6 +55,9 @@ public class WarmaRebornModItems {
 		WUYA = register("wuya", new WuyaItem());
 		CAKE_IS_A_LIE = register("cake_is_a_lie", new CakeIsALieItem());
 		ANOTHER_FISHING_ROD = register("another_fishing_rod", new AnotherFishingRodItem());
+		LONG_SHA_MA = register("long_sha_ma", new LongShaMaItem());
+		WARMA_SCARE = register("warma_scare", new WarmaScareItem());
+		SHARK = register("shark", new SharkItem());
 	}
 
 	public static void clientLoad() {
